@@ -1,0 +1,162 @@
+nav{
+    overflow: hidden;
+}
+#logo{
+    width: 200px;
+    height: 50px;
+}
+#Products{
+    margin-right: 54%;
+    border-radius: 10px;
+    border-style: hidden;
+    align-items: center;
+    text-align: center;
+}
+.list{
+    display: flex;
+    margin-left: 50%;
+    gap: 40px;
+    margin-top: -50px;   
+}
+.list button{
+    border: none;
+    background-color: transparent;
+}
+.log{
+    display: flex;
+    margin-top: -50px;
+    margin-right:50px ;
+    gap: 20px;
+}
+.log button{
+    border-radius: 10px;
+}
+#Register{
+    background-color: black;
+    color: white;
+}
+.card{
+    margin-left: 55%;
+    margin-top: -30%;
+    border: none;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+.btns{
+    display: flex;
+    margin-left: 30%;
+    gap: 80px;
+}
+.tickets{
+    margin-top: 20%;
+    gap: 50px;
+}
+
+.ticket-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.ticket-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-card img {
+    width: 100%;
+    height: auto; 
+    max-height: 250px; 
+    object-fit: cover; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.ticket-card:hover img {
+    transform: scale(1.1);
+}
+
+.ticket-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.ticket-content h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ticket-content p {
+    color: #777;
+    font-size: 0.95rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .ticket-card img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ticket-card img {
+        height: 120px;
+    }
+}
+.footer {
+    background-color: #343a40;
+    padding: 40px 0;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footer-link {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    color: #ccc;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.footer-icon:hover {
+    color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+}
